@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F4BFBF;
+  
+}
+.container{
+  width: 60%;
+margin: auto;
+ background-color: #FFD9C0;
+ height: 100vh;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Satisfy', cursive;
+
+}
+.header{
+  text-align: center;
+  background-color: #64b5e4;
+  color: #FAF0D7 ;
+  padding: .8rem 0;
+}
+.footer{
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.input-group{
+  display: flex;
+  justify-content: center;
+    margin-top: 2rem;
+  }  
+   
+.form-control{
+  width: 80%;
+font-size: 1.3rem;
+}
+.btn{
+  font-size: 1rem;
+  margin-left: .5rem;
+  cursor: pointer;
+  padding: .2rem;
+}
+hr{
+  
+  margin: 4rem auto 4rem;
+  width: 40%;
+  border-style: dashed;
+  color: #64b5e4;
+}
+.item{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+    padding-block: .3rem; 
+     width: 80%;
+     margin: auto;
+  }  
+
+  .shoppingList {
+  text-align: center;
+  }
+  
+.text{
+  font-size: 1.2rem;
+  cursor: pointer;
+ 
+}
+  .completed{
+ text-decoration: line-through;
+ color: rgb(131, 80, 80);
+  }
+  .error{
+    color: red;
+    margin: .5rem;
+    text-align: center;
+  }
+  .removeAll{
+    color: rgb(173, 72, 72);
+    background-color: #64b5e4;
+    border: solid 1px rgb(121, 116, 116);
+    border-radius: 3px;
+    margin-right: 6rem;
+    
+  
+  }
