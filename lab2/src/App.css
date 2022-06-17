@@ -11,7 +11,7 @@ body{
   width: 60%;
 margin: auto;
  background-color: #FFD9C0;
- height: 100vh;
+ min-height: 100vh;
 font-family: 'Dancing Script', cursive;
 font-family: 'Lobster', cursive;
 font-family: 'Satisfy', cursive;

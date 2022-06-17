@@ -1,7 +1,7 @@
 import React from 'react'
 import Item from './Item'
 
-const ShoppingList = ({products, toggleComplete, removeProduct}) => {
+const ShoppingList = ({products, toggleComplete, removeProduct, editProduct}) => {
 
   return (
     <div className='shoppingList'>
@@ -9,7 +9,7 @@ const ShoppingList = ({products, toggleComplete, removeProduct}) => {
      {
      products &&
      products.map(product=> (
-     <Item  key={product.id} product={product} removeProduct= {removeProduct} toggleComplete ={toggleComplete} />
+     <Item  key={product.id} product={product} removeProduct= {removeProduct} toggleComplete ={toggleComplete} editProduct = {editProduct}/>
      ))}  
      
      {!products.length && (
